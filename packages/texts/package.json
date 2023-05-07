@@ -1,0 +1,12 @@
+{
+  "name": "texts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --bundle --sourcemap --outdir=dist --format=esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
